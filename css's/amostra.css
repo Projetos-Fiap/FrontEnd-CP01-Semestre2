@@ -1,0 +1,119 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Featured Products Section */
+.featured-products {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Individual Product Styles */
+.produto1, .produto2, .produto3, .produto4, .produto5, .produto6 {
+    width: calc(50% - 20px); /* Distribui os produtos em 2 colunas, com espaçamento de 20px */
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Altura fixa para manter o tamanho das imagens iguais */
+    margin-bottom: 10px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto1 h3,
+.produto2 h3,
+.produto3 h3,
+.produto4 h3,
+.produto5 h3,
+.produto6 h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.produto1 p,
+.produto2 p,
+.produto3 p,
+.produto4 p,
+.produto5 p,
+.produto6 p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.produto1 button,
+.produto2 button,
+.produto3 button,
+.produto4 button,
+.produto5 button,
+.produto6 button {
+    margin-top: 10px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
