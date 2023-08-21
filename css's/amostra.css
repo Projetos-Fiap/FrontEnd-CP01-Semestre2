@@ -1,4 +1,4 @@
-/* Reset CSS */
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -8,9 +8,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+   
 }
 
-/* Header */
+
 header {
     background-color: #222;
     color: #fff;
@@ -21,9 +22,9 @@ header {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 12px;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 nav ul {
@@ -40,8 +41,8 @@ nav a {
     color: #fff;
 }
 
-/* Featured Products Section */
-.featured-products {
+
+.produtos {
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
@@ -50,25 +51,25 @@ nav a {
     justify-content: space-between;
 }
 
-/* Individual Product Styles */
+
 .produto1, .produto2, .produto3, .produto4, .produto5, .produto6 {
-    width: calc(50% - 20px); /* Distribui os produtos em 2 colunas, com espaçamento de 20px */
+    
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.product-image {
+.imagem-produto {
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px; /* Altura fixa para manter o tamanho das imagens iguais */
+    height: 150px;
     margin-bottom: 10px;
 }
 
-.product-image img {
+.imagem-produto img {
     max-width: 100%;
     height: auto;
 }
@@ -107,7 +108,7 @@ nav a {
     cursor: pointer;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     background-color: #222;
