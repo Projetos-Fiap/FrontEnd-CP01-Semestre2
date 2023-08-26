@@ -1,50 +1,33 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-body {
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.5em;
+
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+    font-size: 1em;
+    position: relative;
+}
+
+.headerContent {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-}
-
-.form01 input {
-    display: block;
-    margin-top: 0.5em;
-    width: 15em;
-    height: 2em;
-    border-radius: 10px;
-}
-
-.form01 input[type="submit"] {
-    width: 8em;
-    height: 2em;
-    margin-top: 1em;
-    padding: 0.5em;
-    border-radius: 5px;
-    border: 1px solid #000;
-    background-color: #fff;
-    cursor: pointer;
-}
-
-.form01 {
-    background-color: #ccc;
-    padding: 10px;
-    border-radius: 10px
-}
-
-.form01 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.passwordSection {
-    margin-top: 0.5em;
 }
 
 nav {
@@ -53,6 +36,7 @@ nav {
 }
 
 .menu {
+    background-color: #000;
     color: #fff;
     padding: 1em;
     font-size: 1em;
@@ -68,7 +52,7 @@ nav {
 
 .menu li {
     display: inline;
-    padding: 0 0.5em 0 0.5em;
+    padding: 0 0.em 0 0.5em;
     border-radius: 10px;
 }
 
@@ -87,6 +71,7 @@ nav {
 }
 
 .form {
+    background-color: #000;
     color: #fff;
     padding: 1em;
     font-size: 1em;
@@ -125,4 +110,20 @@ nav {
 .ativo {
     background-color: #fff;
     color: #000;
+}
+
+.headerContent img {
+    width: 3em;
+    height: 3em;
+    margin-left: 3em;
+    position: absolute;
+}
+
+/* CSS PADRÃO PARA TODAS AS PAGINAS */
+
+.principal {
+    padding: 1em 0 1em 0;
+    margin: 0 auto;
+    max-width: 60em;
+    text-align: center;
 }

@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form01 input {
+    display: block;
+    margin-top: 0.5em;
+    width: 15em;
+    height: 2em;
+    border-radius: 10px;
+}
+
+.form01 input[type="submit"] {
+    width: 8em;
+    height: 2em;
+    margin-top: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.form01 {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.form01 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.passwordSection {
+    margin-top: 0.5em;
+}

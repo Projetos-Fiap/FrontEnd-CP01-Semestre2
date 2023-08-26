@@ -6,7 +6,17 @@ function validarForm() {
         alert("Por favor, preencha todos os campos!");
         return false;
     } else {
-        alert("Login efetuado com sucesso!");
-        return true;
+        var senha = document.getElementById("password").value;
+        var senha2 = document.getElementById("password2").value;
+        
+        if (senha !== senha2) {
+            alert("As senhas não conferem!");
+            return false;
+        } else {
+            alert("Cadastro efetuado com sucesso!");
+            return true;
+        }
     }
+
+        
 }
