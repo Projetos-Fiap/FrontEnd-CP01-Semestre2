@@ -1,15 +1,63 @@
-html,
-body {
+/* Estilizando títulos menores */
+h1 {
+    font-size: 2rem; /* Tamanho menor para títulos */
+    font-weight: bold;
+    color: #333; /* Cor do texto */
+    text-align: center;
+    margin: 1.3em 0;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  /* Estilo de destaque para o título */
+  h1::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 0.1em;
+    background-color: #f39c12; /* Cor do destaque */
+    margin: 0 auto;
+    position: absolute;
+    left: 25%; /* Posicionamento central do destaque */
+    bottom: -0.3em; /* Ajuste a posição do destaque abaixo do título */
+  }
+  
+  /* Estilos gerais */
+  .principal {
+    height: 100%;
+    width: 100%;
+    padding: 1em 0;
+    margin: 0 auto;
+    max-width: 60em;
+  }
+  
+  .principal p {
+    margin-bottom: 1.5em;
+    text-align: justify;
+    margin-left: 0;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 0.95em;
+    line-height: 1.5;
+  }
+  
+  html, body {
     height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-}
+    background-color: rgb(230, 226, 226);
+  }
+  
+  footer {
+    margin-top: 50em;
+  }
 
-.principal {
-    padding: 1em 0 1em 0;
-    margin: 0 auto;
-    max-width: 60em;
-    text-align: center;
-}
+  .principal img {
+    display: block; 
+    margin: 5em auto; 
+    height: 20em;
+    width: auto;
+  }
+  
+  
