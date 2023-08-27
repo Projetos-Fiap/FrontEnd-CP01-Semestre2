@@ -1,0 +1,15 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.principal {
+    padding: 1em 0 1em 0;
+    margin: 0 auto;
+    max-width: 60em;
+    text-align: center;
+}
