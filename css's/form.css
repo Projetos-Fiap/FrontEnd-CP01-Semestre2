@@ -55,6 +55,11 @@
     margin-top: 15em;
   }
 
-  body {
-    background-color: rgb(230, 226, 226);
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
   }

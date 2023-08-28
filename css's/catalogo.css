@@ -70,3 +70,16 @@
     left: 25%; /* Posicionamento central do destaque */
     bottom: -0.3em; /* Ajuste a posição do destaque abaixo do título */
   }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+
+  footer {
+    margin-top: 80em;
+  }

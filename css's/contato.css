@@ -5,8 +5,7 @@
     max-width: 400px;
     background: #a02348; 
     border-radius: 50px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 18em;
+    height: 20em;
     width: auto;
     margin-top: 15%;
   }
@@ -15,26 +14,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 2em;
 }
  
-  
 .form01 label {
-    font-weight: bold;
-    color: #333;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0.7em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 120px; 
     display: inline-block; 
    
 }
-
-  
   .form01 input {
-    padding: 0.5em;
-    margin: 0.2em 0;
+    color: black;
+    padding: 1.2em;
+    margin: 0;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     height:auto;
     width: 16em;  
     margin-bottom: 1.4em;
@@ -42,17 +39,60 @@
   
   
   .form01 input[type="submit"] {
-    background-color: #333;
-    color: rgb(255, 255, 255);
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em; 
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 3em;
   }
   
   .form01 input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #cecece;
   }
 
+
+  .principal {
+    height: 100%;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    margin: 0 auto;
+    max-width: 40em;   
+}
+ 
+.principal p{
+   margin-bottom: 1.5em;
+   text-align: justify;
+   margin-left: 0em;
+   font-family: 'Helvetica', Arial, sans-serif;
+   font-size: 1.2em;
+   line-height: 1.5;
+}
+
+/* Estilizando título */
+h1 {
+    font-size: 2rem; /* Tamanho menor para títulos */
+    font-weight: bold;
+    color: #black; /* Cor do texto */
+    text-align: center;
+    margin: 1.3em 0;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  /* Estilo de destaque para o título */
+  h1::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 0.1em;
+    background-color: #a02348;  /* Cor do destaque */
+    margin: 0 auto;
+    position: absolute;
+    left: 25%; /* Posicionamento central do destaque */
+    bottom: -0.3em; /* Ajuste a posição do destaque abaixo do título */
+  }
+  
   
   html, body {
     height: 100%;
@@ -64,6 +104,6 @@
   }
   
   footer {
-    margin-top: 10em;
+    margin-top: 2em;
   }
 
