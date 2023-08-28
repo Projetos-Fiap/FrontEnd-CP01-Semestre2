@@ -15,7 +15,7 @@ h1 {
     display: block;
     width: 50%;
     height: 0.1em;
-    background-color: #f39c12; /* Cor do destaque */
+    background-color: #a02348;  /* Cor do destaque */
     margin: 0 auto;
     position: absolute;
     left: 25%; /* Posicionamento central do destaque */
@@ -46,11 +46,11 @@ h1 {
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-    background-color: rgb(230, 226, 226);
+    background-color: rgb(255, 255, 255);
   }
   
   footer {
-    margin-top: 50em;
+    margin-top: 10em;
   }
 
   .principal img {

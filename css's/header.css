@@ -6,13 +6,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 0px;
     width: 100%;
 }
 
 .logo img {
-    max-width: 3em;
-    margin: 0 50px;
+    max-width: 7em;
+    margin: 0 30px;
 }
 
 .menu ul {
@@ -22,44 +22,34 @@
 
 .menu a {
     font-family: "Comfortaa", sans-serif; /* Use a fonte Comfortaa */
-    font-size: 1.0rem;
-    font-weight: bold; 
+    font-size: 1.3rem;
+    font-weight: normal; 
     color: #ffffff; 
     text-align: center; 
     text-decoration: none; 
-    
-    background-color: #24010b; 
     padding: 10px 15px; 
-    margin: 10px; 
-    border-radius: 10px; 
-    transition: background-color 0.2s ease, color 0.2s ease;
+    margin: 20px; 
+    border-radius: 0px; 
 }
 
-.menu a:hover {
-background-color: #b08580;     
-        color: white; 
+.menu a:hover {   
         transform: scale(1.05)
 }
 
 /* Menu de cadastro */
 .user-menu a {
     font-family: "Comfortaa", sans-serif; /* Use a fonte Comfortaa */
-    font-size: 1.0rem;
-    font-weight: bold; 
+    font-size: 1.3rem;
+    font-weight: normal; 
     color: #ffffff; 
     text-align: center; 
     text-decoration: none; 
-    
-    background-color: #24010b; 
     padding: 10px 15px; 
-    margin: 10px; 
-    border-radius: 10px; 
-    transition: background-color 0.2s ease, color 0.2s ease;
+    margin: 20px; 
+    border-radius: 0px; 
 }
 
 .user-menu a:hover {
-background-color: #b08580; 
-        color: white; 
         transform: scale(1.05)
 }
 

@@ -1,10 +1,10 @@
 .form01 {
     text-align: center;
-    margin: 2em auto;
-    padding: 1em;
+    margin: auto;
+    padding: 20px;
     max-width: 400px;
-    background: linear-gradient(to right, #f39c12, #e74c3c);
-    border-radius: 10px;
+    background: #a02348; 
+    border-radius: 50px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     height: 18em;
     width: auto;
@@ -53,11 +53,17 @@
     background-color: #555;
   }
 
-  body {
-    background-color: rgb(230, 226, 226);
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
   }
   
-
   footer {
-    margin-top: 15em;
+    margin-top: 10em;
   }
+
