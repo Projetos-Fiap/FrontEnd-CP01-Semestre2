@@ -1,8 +1,17 @@
+/* Importe a fonte Comfortaa do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
 footer {
-    background-color: #333;
+    background-color: #a02348; 
     color: #fff;
     padding: 0.5em;
     text-align: center;
+    font-family: "Comfortaa", sans-serif; /* Use a fonte Comfortaa */
+    font-size: 1.0rem;
+    font-weight: bold; 
+    color: #ffffff; 
+    text-align: center; 
+    text-decoration: none; 
     bottom: 0;
     width: 100%;
 }
