@@ -8,23 +8,23 @@
  
 .principal p{
  
-    margin-bottom: 1.5em;
+   margin-bottom: 1.5em;
    text-align: justify;
    margin-left: 0em;
-   font-family: 'Lato', Arial, sans-serif;
+   font-family: 'Helvetica', Arial, sans-serif;
    font-size: 0.95em;
    line-height: 1.5;
 }
 
-/* Estilizando títulos menores */
+/* Estilizando título */
 h1 {
     font-size: 2rem; /* Tamanho menor para títulos */
     font-weight: bold;
-    color: #333; /* Cor do texto */
+    color: #black; /* Cor do texto */
     text-align: center;
     margin: 1.3em 0;
-    text-transform: uppercase;
     position: relative;
+    text-transform: uppercase;
   }
   
   /* Estilo de destaque para o título */
@@ -57,7 +57,7 @@ h1 {
   }
   
   footer {
-    margin-top: 10em;
+    margin-top: 40em;
   }
 
   

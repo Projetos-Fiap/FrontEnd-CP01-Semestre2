@@ -11,7 +11,7 @@
 }
 
 .logo img {
-    max-width: 7em;
+    max-width: 5em;
     margin: 0 30px;
 }
 
@@ -22,7 +22,7 @@
 
 .menu a {
     font-family: "Comfortaa", sans-serif; /* Use a fonte Comfortaa */
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     font-weight: normal; 
     color: #ffffff; 
     text-align: center; 
@@ -39,7 +39,7 @@
 /* Menu de cadastro */
 .user-menu a {
     font-family: "Comfortaa", sans-serif; /* Use a fonte Comfortaa */
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     font-weight: normal; 
     color: #ffffff; 
     text-align: center; 
