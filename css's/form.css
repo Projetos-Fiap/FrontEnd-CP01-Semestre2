@@ -1,128 +1,60 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-}
-
-.form01 input {
-    display: block;
-    margin-top: 0.5em;
-    width: 15em;
-    height: 2em;
-    border-radius: 10px;
-}
-
-.form01 input[type="submit"] {
-    width: 8em;
-    height: 2em;
-    margin-top: 1em;
-    padding: 0.5em;
-    border-radius: 5px;
-    border: 1px solid #000;
-    background-color: #fff;
-    cursor: pointer;
-}
-
 .form01 {
-    background-color: #ccc;
-    padding: 10px;
-    border-radius: 10px
-}
-
-.form01 form {
+    text-align: center;
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 400px;
+    background: linear-gradient(to right, #f39c12, #e74c3c);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 18em;
+    width: auto;
+    margin-top: 15%;
+  }
+  
+  .form01 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-top: 3em;
 }
+ 
+  
+  .form01 label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.7em;
+    font-size: 1.5em;
 
-.passwordSection {
-    margin-top: 0.5em;
-}
-
-nav {
-    width: auto;
-    margin: 0 auto;
-}
-
-.menu {
-    color: #fff;
-    padding: 1em;
-    font-size: 1em;
-    margin: 0 auto;
-}
-
-.menu ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    height: 1em;
-}
-
-.menu li {
-    display: inline;
-    padding: 0 0.5em 0 0.5em;
-    border-radius: 10px;
-}
-
-.menu a {
-    text-decoration: none;
+  }
+  
+  .form01 input {
+    padding: 0.5em;
+    margin: 0.2em 0;
+    border: none;
+    border-radius: 5px;
+    height:auto;
+    width: 16em;  
+    margin-bottom: 1.4em;
+ }
+  
+  
+  .form01 input[type="submit"] {
+    background-color: #333;
+    color: rgb(255, 255, 255);
     cursor: pointer;
-    color: inherit;
-    background-color: blue;
-    border-radius: 10px;
-    padding: 0.3em;
-}
+    transition: background-color 0.3s;
+    margin-top: 3em;
+  }
+  
+  .form01 input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
 
-.menu a:hover {
-    background-color: #fff;
-    color: #000;
-}
+  footer {
+    margin-top: 15em;
+  }
 
-.form {
-    color: #fff;
-    padding: 1em;
-    font-size: 1em;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-}
-
-.form ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    height: 1em;
-}
-
-.form li {
-    display: inline;
-    padding: 0 0.5em 0 0.5em;
-    border-radius: 10px;
-}
-
-.form a {
-    text-decoration: none;
-    cursor: pointer;
-    color: inherit;
-    background-color: blue;
-    border-radius: 10px;
-    padding: 0.3em;
-}
-
-.form a:hover {
-    background-color: #fff;
-    color: #000;
-}
-
-.ativo {
-    background-color: #fff;
-    color: #000;
-}
+  body {
+    background-color: rgb(230, 226, 226);
+  }

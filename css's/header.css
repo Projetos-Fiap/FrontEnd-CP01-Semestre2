@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    width: 100%;
 }
 
 .logo img {
@@ -43,16 +44,16 @@
 }
 
 .user-menu a {
-    font-size: 0.8rem; /* Tamanho da fonte */
-    font-weight: bold; /* Peso da fonte (negrito) */
-    color: #333; /* Cor do texto */
-    text-align: center; /* Alinhamento centralizado */
-    text-decoration: none; /* Removendo sublinhado padrão */
-    background-color: #f39c12; /* Cor de fundo */
-    padding: 10px 20px; /* Espaçamento interno */
-    margin: 10px; /* Espaçamento entre os botões */
-    border-radius: 5px; /* Borda arredondada */
-    transition: 0.3s, color 0.3s; /* Transições suaves */
+    font-size: 0.8rem;
+    font-weight: bold; 
+    color: #333; 
+    text-align: center; 
+    text-decoration: none; 
+    background-color: #f39c12; 
+    padding: 10px 20px; 
+    margin: 10px;  */
+    border-radius: 5px; 
+    transition: 0.3s, color 0.3s; 
 }
 
 .user-menu a:hover {
