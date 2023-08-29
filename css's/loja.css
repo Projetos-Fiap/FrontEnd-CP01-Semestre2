@@ -32,14 +32,14 @@
   
   .price {
     font-weight: bold;
-    color: #e74c3c;
+    color: #df210c;
   }
   
   .buy-button {
-    background-color: #3498db;
+    background-color: #a02348;
     color: white;
-    border: none;
-    padding: 10px 20px;
+    border-radius: 20px;
+    padding: 10px 10px;
     cursor: pointer;
   }
 

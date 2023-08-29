@@ -1,77 +1,67 @@
-.form01 {
-    text-align: center;
-    margin: auto;
-    padding: 20px;
-    max-width: 400px;
-    background: #a02348; 
-    border-radius: 50px;
-    height: 20em;
-    width: auto;
-    margin-top: 15%;
-  }
-  
-  .form01 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2em;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
 }
- 
-.form01 label {
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 0.7em;
-    font-size: 1.2em;
-    width: 120px; 
-    display: inline-block; 
-   
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
 }
-  .form01 input {
-    color: black;
-    padding: 1.2em;
-    margin: 0;
-    border: none;
-    border-radius: 15px;
-    height:auto;
-    width: 16em;  
-    margin-bottom: 1.4em;
- }
-  
-  
-  .form01 input[type="submit"] {
-    color: #000000;
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.0em; 
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 3em;
-  }
-  
-  .principal {
-    height: 100%;
-    width: 100%;
-    padding: 1em 0 1em 0;
-    margin: 0 auto;
-    max-width: 35em;   
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
 }
+[type="submit"]:hover { background:#CC4949; }
  
 .principal p{
-   margin-bottom: 1.5em;
-   text-align: justify;
+   margin-top: 5em;
+   margin-bottom: 2em;
+   text-align: center;
    margin-left: 0em;
    font-family: 'Helvetica', Arial, sans-serif;
    font-size: 1.2em;
-   line-height: 1.5;
 }
 
 /* Estilizando título */
 h1 {
-    font-size: 2rem; /* Tamanho menor para títulos */
-    font-weight: bold;
-    color: #black; /* Cor do texto */
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #2b2728;
     text-align: center;
-    margin: 1.3em 0;
+    margin: 1.5em 0;
     position: relative;
     text-transform: uppercase;
   }

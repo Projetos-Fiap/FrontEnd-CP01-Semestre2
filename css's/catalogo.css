@@ -1,16 +1,42 @@
+/* Importando fonte para título */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 .principal {
   height: 100%;
   width: 100%;
-  padding: 1em 0 1em 0;
+  padding: 1em 0;
   margin: 0 auto;
-  max-width: 60em;   
+  max-width: 60em;
 }
+
+/* Estilizando texto */
+.principal p{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  margin-left: 0em;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 1.0em;
+  
+}
+
+/* Estilizando título */
+.principal h1 {
+   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+   font-size: 2rem;
+   font-weight: 500;
+   color: #2b2728;
+   text-align: center;
+   margin: 1.5em 0;
+   position: relative;
+   text-transform: uppercase;
+ }
 
 .texto {
   margin-bottom: 1.5em;
   text-align: justify;
   margin-left: 3em;
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   line-height: 1.2em; 
 }
@@ -18,7 +44,7 @@
   margin-bottom: 1.5em;
   text-align: justify;
   margin-left: 3em;
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   line-height: 1.2em;
 }
@@ -27,7 +53,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   text-align: justify;
 }
 
