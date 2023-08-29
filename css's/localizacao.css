@@ -42,18 +42,12 @@ h1 {
   }
   
   html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
     overflow-x: hidden;
     background-color: rgb(255, 255, 255);
   }
-  
-  footer {
-    margin-top: 40em;
-  }
-
     
   .localizacaomaps iframe {
     margin-top: 5em;
