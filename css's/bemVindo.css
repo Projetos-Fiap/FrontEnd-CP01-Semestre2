@@ -7,9 +7,13 @@ img {
   
 body {
     background-image: linear-gradient(to bottom, #ffefdb, #a02348);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 footer {
-    margin-top: 10em;
+    margin-top: 40em;
   }
 
