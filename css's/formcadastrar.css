@@ -1,66 +1,123 @@
+/* Importando fonte para título */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 .form01 {
-    text-align: center;
-    margin: 2em auto;
-    padding: 1em;
-    max-width: 400px;
-    background: linear-gradient(to right, #f39c12, #e74c3c);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 18em;
-    width: auto;
-    margin-top: 15%;
-  }
-  
-  .form01 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3em;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 400px;
+  background: #a02348; 
+  border-radius: 50px;
+  height: 20em;
+  width: auto;
+  margin-top: 5em;
+  margin-bottom: 2em;
 }
- 
+
+.form01 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
 
 .form01 label {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 0.7em;
-    font-size: 1.3em;
-    width: 70px; 
-    display: inline-block; 
-   
-}
-  
-
-
-
-  .form01 input {
-    padding: 0.5em;
-    margin: 0.2em 0;
-    border: none;
-    border-radius: 5px;
-    height:auto;
-    width: 16em;  
-    margin-bottom: 1.4em;
- }
-  
-  
-  .form01 input[type="submit"] {
-    background-color: #333;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 3em;
-  }
-  
-  .form01 input[type="submit"]:hover {
-    background-color: #555;
-  }
-  
-
-  footer {
-    margin-top: 15em;
-  }
-
-  body {
-    background-color: rgb(230, 226, 226);
-  }
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.7em;
+  font-size: 1.2em;
+  width: 120px; 
+  display: inline-block; 
  
+}
+.form01 input {
+  color: black;
+  padding: 1.2em;
+  margin: 0;
+  border: none;
+  border-radius: 15px;
+  height:auto;
+  width: 16em;  
+  margin-bottom: 1.4em;
+}
+
+  
+.form01 input {
+  color: black;
+  padding: 1.2em;
+  margin: 0;
+  border: none;
+  border-radius: 15px;
+  height:auto;
+  width: 16em;  
+  margin-bottom: 1.4em;
+}
+
+
+.form01 input[type="submit"] {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.0em; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 3em;
+}
+
+
+.principal {
+  height: 100%;
+  width: 100%;
+  padding: 1em 0;
+  margin: 0 auto;
+  max-width: 60em;
+}
+
+/* Estilizando texto */
+.principal p{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  margin-left: 0em;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 1.0em;
+  
+}
+
+/* Estilizando título */
+.principal h1 {
+   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+   font-size: 2rem;
+   font-weight: 500;
+   color: #2b2728;
+   text-align: center;
+   margin: 1.5em 0;
+   position: relative;
+   text-transform: uppercase;
+ }
+ 
+ /* Estilo de destaque para o título */
+ h1::after {
+   content: "";
+   display: block;
+   width: 50%;
+   height: 0.1em;
+   background-color: #a02348;  /* Cor do destaque */
+   margin: 0 auto;
+   position: absolute;
+   left: 25%; /* Posicionamento central do destaque */
+   bottom: -0.3em; /* Ajuste a posição do destaque abaixo do título */
+ }
+
+
+footer {
+  margin-top: 30em;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+  }

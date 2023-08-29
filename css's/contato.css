@@ -1,61 +1,87 @@
-.form01 {
-    text-align: center;
-    margin: auto;
-    padding: 20px;
-    max-width: 400px;
-    background: #a02348; 
-    border-radius: 50px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 18em;
-    width: auto;
-    margin-top: 15%;
-  }
-  
-  .form01 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3em;
-}
- 
-  
-.form01 label {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 0.7em;
-    font-size: 1.5em;
-    width: 120px; 
-    display: inline-block; 
-   
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:500px; margin:50px auto; }
+
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #8b3131;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
 }
 
-  
-  .form01 input {
-    padding: 0.5em;
-    margin: 0.2em 0;
-    border: none;
-    border-radius: 5px;
-    height:auto;
-    width: 16em;  
-    margin-bottom: 1.4em;
+.feedback-input:focus { border:2px solid #953232; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#c18888;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#962525; }
+ 
+.principal p{
+   margin-top: 5em;
+   margin-bottom: 2em;
+   text-align: center;
+   margin-left: 0em;
+   font-family: 'Helvetica', Arial, sans-serif;
+   font-size: 1.2em;
+}
+
+/* ESTILO H1 */
+
+.principal h1 {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2b2728;
+  text-align: center;
+  margin: 1.5em 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+/* ESTILO DESTAQUE H1 */
+
+ h1::after {
+   content: "";
+   display: block;
+   width: 50%;
+   height: 0.1em;
+   background-color: #a02348;  /* Cor do destaque */
+   margin: 0 auto;
+   position: absolute;
+   left: 25%; /* Posicionamento central do destaque */
+   bottom: -0.3em; /* Ajuste a posição do destaque abaixo do título */
  }
   
-  
-  .form01 input[type="submit"] {
-    background-color: #333;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 3em;
-  }
-  
-  .form01 input[type="submit"]:hover {
-    background-color: #555;
-  }
-
-  
   html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -64,6 +90,6 @@
   }
   
   footer {
-    margin-top: 10em;
+    margin-top: 30em;
   }
 

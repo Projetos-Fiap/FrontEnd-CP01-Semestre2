@@ -1,22 +1,27 @@
+/* Importando fonte para título */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 .principal {
-    /* height: 100%; */
+    height: 100%;
     width: 100%;
     padding: 1em 0 1em 0;
     margin: 0 auto;
     max-width: 60em;   
 }
- 
+
+/* Estilizando texto */
 .principal p{
-  margin-bottom: 1.5em; 
-  text-align: justify;
-  margin-left: 0em;
-  font-family: 'Lato', Arial, sans-serif;
-  font-size: 0.95em;
-  line-height: 1.5;
+ 
+    margin-bottom: 1.5em;
+   text-align: justify;
+   margin-left: 0em;
+   font-family: 'Lato', Arial, sans-serif;
+   font-size: 0.95em;
+   line-height: 1.5;
 }
 
 /* Estilizando títulos menores */
-  h1 {
+h1 {
     font-size: 2rem; /* Tamanho menor para títulos */
     font-weight: bold;
     color: #333; /* Cor do texto */
@@ -40,18 +45,20 @@
   }
   
   .foto img {
-    max-width: 100%; /* Limita a largura máxima da imagem */
+    max-width: 80%; /* Limita a largura máxima da imagem */
     height: auto; /* Mantém a proporção original da imagem */
     display: block; /* Remove margens laterais */
     margin: 0 auto; /* Centraliza horizontalmente a imagem */ 
 }
   
   html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
     overflow-x: hidden;
     background-color: rgb(255, 255, 255);
-    display: block;
+  }
+  
+  footer {
+    margin-top: 10em;
   }
