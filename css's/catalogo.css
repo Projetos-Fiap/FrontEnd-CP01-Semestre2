@@ -9,7 +9,16 @@
   max-width: 60em;
 }
 
-/* Estilizando texto */
+/* DEFINIÇÕES IMAGENS DA GALERIA */
+img {
+  max-width: 35%; /* Limita a largura máxima da imagem */
+  height: auto; /* Mantém a proporção original da imagem */
+  display: block; /* Remove margens laterais */
+  margin: 0 auto; /* Centraliza horizontalmente a imagem */ 
+}
+
+/* ESTILO TEXTO */
+
 .principal p{
   margin-top: 2em;
   margin-bottom: 2em;
@@ -20,7 +29,8 @@
   
 }
 
-/* Estilizando título */
+/* ESTILO H1 */
+
 .principal h1 {
    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
    font-size: 2rem;
@@ -32,59 +42,8 @@
    text-transform: uppercase;
  }
 
-.texto {
-  margin-bottom: 1.5em;
-  text-align: justify;
-  margin-left: 3em;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
-  line-height: 1.2em; 
-}
-.segundotxt {
-  margin-bottom: 1.5em;
-  text-align: justify;
-  margin-left: 3em;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
-  line-height: 1.2em;
-}
+/* ESTILO DESTAQUE H1 */
 
-.catalog {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  text-align: justify;
-}
-
-.wine {
-  width: 300px;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-
-.wine img {
-  max-width: 100%;
-}
-
-.wine h2 {
-  margin-top: 10px;
-}
-
-
-.titulo {
-  font-size: rem;
-  font-weight: bold;
-  color: #333;
-  text-align: center;
-  margin: 1.3em 0;
-  text-transform: uppercase;
-  position: relative;
-}
-
-  /* Estilo de destaque para o título */
   h1::after {
     content: "";
     display: block;
@@ -97,6 +56,8 @@
     bottom: -0.3em; /* Ajuste a posição do destaque abaixo do título */
   }
 
+/* ESTILO CSS */
+
   html, body {
     margin: 0;
     padding: 0;
@@ -106,5 +67,99 @@
   }
 
   footer {
-    margin-top: 80em;
+    margin-top: 40em;
   }
+
+
+/* FAZENDO O SLIDESHOW */  
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 60em;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 20px;
+  color: rgb(139, 44, 66);
+  font-weight: bold;
+  font-size: 2.5em;
+  transition: 1s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(211, 138, 138, 0.8);
+}
+
+/* Caption text */
+.text {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2b2728;
+  position: bottom;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/6) */
+.numbertext {
+  font-family: 'Helvetica', Arial, sans-serif;
+  color: #000000;
+  font-size: 1.2em;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+

@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Catálogo</title>
+    <script src="../script/catalogo.js"></script>
     <link rel="stylesheet" href="../css's/./catalogo.css">
     <link rel="stylesheet" href="../css's/header.css">
     <link rel="stylesheet" href="../css's/footer.css">
 </head>
+
 <body>
     <header class="header">
         <div class="logo">
@@ -25,8 +27,8 @@
         </nav>
         <nav class="user-menu">
             <ul>
-                <a href="./form.html"><li>Entrar</li></a>
-                <a href="./formcadastrar.html"><li>Cadastrar</li></a>
+                <a href="./form.html"><li>ENTRAR</li></a>
+                <a href="./formcadastrar.html"><li>CADASTRAR</li></a>
             </ul>
         </nav>
 </header>
@@ -42,46 +44,64 @@
             de
             equilíbrio e harmonia.
         </p>
-    
-        <div class="catalog">
-            <div class="wine">
-              <img src="../images/vinho_tinto.jpeg" alt="Vinho 1">
-              <h2>Vinho Tinto Especial</h2>
-              <p>Um blend de uvas selecionadas para uma experiência única.</p>
-              
-            </div>
-            <div class="wine">
-              <img src="../images/vinho_branco.jpg" alt="Vinho 2">
-              <h2>Vinho Branco Refrescante</h2>
-              <p>Perfeito para acompanhar pratos leves e frescos.</p>
-              
-            </div>
-            <div class="wine">
-                <img src="../images/vinho_rose.jpg" alt="Vinho 3">
-                <h2>Vinho Rose</h2>
-                <p>Refrescante e sofisticado, um brinde ao equilíbrio em tons de rosa.</p>
-               
-              </div>
-              <div class="wine">
-                <img src="../images/vinho_seco.jpeg" alt="Vinho 4">
-                <h2>Vinho Seco</h2>
-                <p>Elegância descomplicada, sabor autêntico em cada gole.</p>
-                
-              </div>
-              <div class="wine">
-                <img src="../images/vinho_suave.jpeg" alt="Vinho 5">
-                <h2>Vinho Suave</h2>
-                <p>Toque de doçura que harmoniza com o relaxar dos sentidos.</p>
-            
-              </div>
-              <div class="wine">
-                <img src="../images/espumante.jpg" alt="Vinho 6">
-                <h2>Espumante</h2>
-                <p>Brilho das borbulhas, celebração em cada taça. Uma experiência efervescente e marcante.</p>
-                
-              </div>
-          </div>
+    </div>
 
+        <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="../images/Vinho1.png">
+        <div class="text">Cabernet Sauvignon</div>
+        </div>
+    
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="../images/Vinho2.png">
+        <div class="text">Chardonnay</div>
+        </div>
+    
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="../images/Vinho3.png">
+        <div class="text">Pinot Noir</div>
+        </div>
+        
+        <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="../images/Vinho4.png">
+        <div class="text">Merlot</div>
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="../images/Vinho5.png">
+        <div class="text">Sauvignon Blanc</div>
+        </div>        
+        
+        <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="../images/Vinho6.png">
+        <div class="text">Espumante Brut</div>
+        </div>  
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
     </div>
 
     <footer>
@@ -89,4 +109,5 @@
     </footer>
 
 </body>
+
 </html>

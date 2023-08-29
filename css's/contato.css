@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body { background:rgb(30,30,40); }
-form { max-width:420px; margin:50px auto; }
+form { max-width:500px; margin:50px auto; }
 
 .feedback-input {
   color:rgb(0, 0, 0);
@@ -11,7 +11,7 @@ form { max-width:420px; margin:50px auto; }
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border:2px solid #8b3131;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -20,7 +20,7 @@ form { max-width:420px; margin:50px auto; }
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus { border:2px solid #953232; }
 
 textarea {
   height: 150px;
@@ -31,7 +31,7 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
+  background:#c18888;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -43,7 +43,7 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#CC4949; }
+[type="submit"]:hover { background:#962525; }
  
 .principal p{
    margin-top: 5em;
@@ -54,31 +54,32 @@ textarea {
    font-size: 1.2em;
 }
 
-/* Estilizando título */
-h1 {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
-    color: #2b2728;
-    text-align: center;
-    margin: 1.5em 0;
-    position: relative;
-    text-transform: uppercase;
-  }
-  
-  /* Estilo de destaque para o título */
-  h1::after {
-    content: "";
-    display: block;
-    width: 50%;
-    height: 0.1em;
-    background-color: #a02348;  /* Cor do destaque */
-    margin: 0 auto;
-    position: absolute;
-    left: 25%; /* Posicionamento central do destaque */
-    bottom: -0.3em; /* Ajuste a posição do destaque abaixo do título */
-  }
-  
+/* ESTILO H1 */
+
+.principal h1 {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2b2728;
+  text-align: center;
+  margin: 1.5em 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+/* ESTILO DESTAQUE H1 */
+
+ h1::after {
+   content: "";
+   display: block;
+   width: 50%;
+   height: 0.1em;
+   background-color: #a02348;  /* Cor do destaque */
+   margin: 0 auto;
+   position: absolute;
+   left: 25%; /* Posicionamento central do destaque */
+   bottom: -0.3em; /* Ajuste a posição do destaque abaixo do título */
+ }
   
   html, body {
     margin: 0;
@@ -89,6 +90,6 @@ h1 {
   }
   
   footer {
-    margin-top: 10em;
+    margin-top: 30em;
   }
 

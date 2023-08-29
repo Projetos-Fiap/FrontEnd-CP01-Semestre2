@@ -45,24 +45,31 @@
    bottom: -0.3em; /* Ajuste a posição do destaque abaixo do título */
  }
   
-  html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .localizacaomaps iframe {
-    margin-top: 5em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+ img {
+  max-width: 80%; /* Limita a largura máxima da imagem */
+  height: auto; /* Mantém a proporção original da imagem */
+  display: block; /* Remove margens laterais */
+  margin: 0 auto; /* Centraliza horizontalmente a imagem */ 
+}
 
-  footer {
-    margin-top: 70em;
-  }
+.localizacaomaps iframe {
+  margin-top: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+}
+  
+footer {
+  margin-top: 40em;
+}
 
     
 

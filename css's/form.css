@@ -1,3 +1,7 @@
+/* Importando fonte para título */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
 .form01 {
   text-align: center;
   margin: auto;
@@ -7,14 +11,15 @@
   border-radius: 50px;
   height: 20em;
   width: auto;
-  margin-top: 15%;
+  margin-top: 5em;
+  margin-bottom: 2em;
 }
 
 .form01 form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .form01 label {
@@ -60,15 +65,59 @@
   margin-top: 3em;
 }
   
+.principal {
+  height: 100%;
+  width: 100%;
+  padding: 1em 0;
+  margin: 0 auto;
+  max-width: 60em;
+}
 
-  footer {
-    margin-top: 15em;
-  }
+/* Estilizando texto */
+.principal p{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  margin-left: 0em;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 1.0em;
+  
+}
 
-    html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-    background-color: rgb(255, 255, 255);
+/* Estilizando título */
+.principal h1 {
+   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+   font-size: 2rem;
+   font-weight: 500;
+   color: #2b2728;
+   text-align: center;
+   margin: 1.5em 0;
+   position: relative;
+   text-transform: uppercase;
+ }
+ 
+ /* Estilo de destaque para o título */
+ h1::after {
+   content: "";
+   display: block;
+   width: 50%;
+   height: 0.1em;
+   background-color: #a02348;  /* Cor do destaque */
+   margin: 0 auto;
+   position: absolute;
+   left: 25%; /* Posicionamento central do destaque */
+   bottom: -0.3em; /* Ajuste a posição do destaque abaixo do título */
+ }
+
+
+footer {
+  margin-top: 30em;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
   }
