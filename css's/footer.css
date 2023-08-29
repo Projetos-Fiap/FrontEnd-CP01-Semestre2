@@ -12,6 +12,7 @@ footer {
     color: #ffffff; 
     text-align: center; 
     text-decoration: none;
-    bottom: 0;
+    position: relative;
+    bottom: 0px;
     width: 100%;
 }
