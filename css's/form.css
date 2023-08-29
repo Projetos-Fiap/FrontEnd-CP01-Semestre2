@@ -1,15 +1,14 @@
 .form01 {
-    text-align: center;
-    margin: 2em auto;
-    padding: 1em;
-    max-width: 400px;
-    background: linear-gradient(to right, #f39c12, #e74c3c);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 18em;
-    width: auto;
-    margin-top: 15%;
-  }
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 400px;
+  background: #a02348; 
+  border-radius: 50px;
+  height: 20em;
+  width: auto;
+  margin-top: 15%;
+}
   
   .form01 form {
     display: flex;
@@ -55,7 +54,7 @@
     margin-top: 15em;
   }
 
-  html, body {
+    html, body {
     height: 100%;
     margin: 0;
     padding: 0;

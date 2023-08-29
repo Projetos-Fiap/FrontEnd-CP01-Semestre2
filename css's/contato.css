@@ -40,6 +40,7 @@
   
   .form01 input[type="submit"] {
     color: #000000;
+    background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.0em; 
     cursor: pointer;
@@ -47,17 +48,12 @@
     margin-top: 3em;
   }
   
-  .form01 input[type="submit"]:hover {
-    background-color: #cecece;
-  }
-
-
   .principal {
     height: 100%;
     width: 100%;
     padding: 1em 0 1em 0;
     margin: 0 auto;
-    max-width: 40em;   
+    max-width: 35em;   
 }
  
 .principal p{
@@ -104,6 +100,6 @@ h1 {
   }
   
   footer {
-    margin-top: 2em;
+    margin-top: 10em;
   }
 
