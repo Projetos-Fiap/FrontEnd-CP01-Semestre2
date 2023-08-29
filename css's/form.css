@@ -9,45 +9,56 @@
   width: auto;
   margin-top: 15%;
 }
-  
-  .form01 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3em;
-}
- 
-  
-  .form01 label {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 0.7em;
-    font-size: 1.5em;
 
-  }
+.form01 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.form01 label {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.7em;
+  font-size: 1.2em;
+  width: 120px; 
+  display: inline-block; 
+ 
+}
+.form01 input {
+  color: black;
+  padding: 1.2em;
+  margin: 0;
+  border: none;
+  border-radius: 15px;
+  height:auto;
+  width: 16em;  
+  margin-bottom: 1.4em;
+}
+
   
-  .form01 input {
-    padding: 0.5em;
-    margin: 0.2em 0;
-    border: none;
-    border-radius: 5px;
-    height:auto;
-    width: 16em;  
-    margin-bottom: 1.4em;
- }
-  
-  
-  .form01 input[type="submit"] {
-    background-color: #333;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 3em;
-  }
-  
-  .form01 input[type="submit"]:hover {
-    background-color: #555;
-  }
+.form01 input {
+  color: black;
+  padding: 1.2em;
+  margin: 0;
+  border: none;
+  border-radius: 15px;
+  height:auto;
+  width: 16em;  
+  margin-bottom: 1.4em;
+}
+
+
+.form01 input[type="submit"] {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.0em; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 3em;
+}
   
 
   footer {
