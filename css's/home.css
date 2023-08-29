@@ -17,7 +17,7 @@
 }
 
 /* Estilizando títulos menores */
-h1 {
+  h1 {
     font-size: 2rem; /* Tamanho menor para títulos */
     font-weight: bold;
     color: #333; /* Cor do texto */
@@ -55,9 +55,3 @@ h1 {
     overflow-x: hidden;
     background-color: rgb(255, 255, 255);
   }
-  
-  footer {
-    margin-top: 10em;
-  }
-
-  
