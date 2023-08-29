@@ -1,0 +1,15 @@
+img {
+    max-width: 100%; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Remove margens laterais */
+    margin: 200px auto; /* Centraliza horizontalmente a imagem */ 
+}
+  
+body {
+    background-image: linear-gradient(to bottom, #ffefdb, #a02348);
+}
+
+footer {
+    margin-top: 10em;
+  }
+
